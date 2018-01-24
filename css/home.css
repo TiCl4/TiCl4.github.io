@@ -1,0 +1,22 @@
+.about-me {
+    background-color: beige;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.hobbies {
+    background-color:bisque;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.music {
+    background-color: beige;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    color:darkgreen;
+}
