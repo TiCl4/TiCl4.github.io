@@ -1,25 +1,35 @@
 .container {
     padding-top: 40px;
+    background-color: snow;
 }
+
 .about-me {
-    background-color: beige;
     padding-left: 20px;
     padding-right: 20px;
     text-align: left;
 }
 
 .hobbies {
-    background-color:bisque;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .music {
-    background-color: beige;
     padding-left: 20px;
     padding-right: 20px;
 }
 
+.social {
+  
+}
+
 p {
     color:darkgreen;
+}
+
+.identity {
+}
+
+.twitter {
+    
 }

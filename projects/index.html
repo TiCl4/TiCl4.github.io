@@ -1,15 +1,14 @@
 <!DOCTYPE>
 <html>
 <head>
-    This page is under development...
     <title>Projects - Nguyen Tran</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="projects/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../projects/css/style.css">
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Logo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,7 +20,7 @@
             <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="projects/index.html">Projects</a>
+            <a class="nav-link" href="../projects/index.html">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../fun/index.html">Fun</a>
@@ -40,77 +39,133 @@
       </div>
     </nav>
     
-    <p>These are the projects I've done so far that I'm quiet proud of. They're my real products after all.</p>
     
-    <div class="container">
-    <ul>
-        <div class="memeMe-left">
-        <li> <a href="">MemeMe - iOS (going live soon)</a>
-            <br>
-            <span>- Created a meme app that allows users to write texts on a image (either from photo library or from camera) to make a meme and send to friends for fun.</span>
-            <br>
-            <span>- Used delegate to save shared memes, accessed camera and photo album using UIImagePickerController, used UICollectionViewController and UITableViewController to allow view options in list mode or collection mode, set up navigation structure that creates an intuitive flow through the app.</span>
-            <br>
-            <Span> <a href="https://github.com/TiCl4/MemeMe_iOS">Github Code</a></Span>
-        </li>
+    <div class="projects-container">
+        <p>These are the projects I've done so far that I'm quiet proud of. They're my real products after all.</p>
+        
+        <ul>
+            <div class="row">
+                <div class="memeMe-left col-6">
+                    <li> <a href="">MemeMe - iOS (going live soon)</a>
+                        <br>
+                        <span>- Created a meme app that allows users to write texts on a image (either from photo library or from camera) to make a meme and send to friends for fun.</span>
+                        <br>
+                        <span>- Used delegate to save shared memes, accessed camera and photo album using UIImagePickerController, used UICollectionViewController and UITableViewController to allow view options in list mode or collection mode, set up navigation structure that creates an intuitive flow through the app.</span>
+                        <br>
+                        <Span> <a href="https://github.com/TiCl4/MemeMe_iOS">Github Code</a></Span>
+                    </li>
+                </div>
+                <div class="memeMe-right col-6">
+                    <p>Demonstration</p>
+                </div>
+            </div>
+            
+            <hr>
+
+            <div class="row">
+                <div class="pitchPerfect-left col-6">
+                    <li> <a href="https://appetize.io/app/d668fcrp3ecxytf1th74wmd3j4?device=iphone6s&scale=75&orientation=portrait&osVersion=11.1">PitchPerfect - iOS (live demonstration)</a>
+                        <br>
+                        <span>- Created an iPhone/iPad app that allows users to record their voice and will then modulate the recorded audio to sound like a Chipmunk or Darth Vader, to sound fast or slow, to sound with echo or with reverb effects.</span>
+                        <br>
+                        <span>- Incorporated UINavigationController to navigate between two scenes, leveraged MVC design using UIViewController and UIView, played audio files using AVFoundation’s AVAudioEngine class, eliminated repeatability by adding a function that includes similar codes.</span>
+                        <br>
+                        <Span> <a href="https://github.com/TiCl4/PitchPerfect_iOS">Github Code</a></Span>
+                    </li>
+                </div>
+                <div class="memeMe-right col-6">
+                    <p>Demonstration</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="row">
+                <div class="manager-left col-6">
+                    <li> <a href="">Manager - React (going live soon)</a>
+                        <br>
+                        <span>- Created a manager app using React in which a manager can use to manage his employees by scheduling, editing or firing his employees.</span>
+                        <br>
+                        <span>- Employed Google Firebase to create data for each employee.</span>
+                        <br>
+                        <span><a href="https://github.com/TiCl4/manager_react">Github code</a></span>
+                    </li>
+                    </div>
+                <div class="manager-right col-6">
+                    <p>Demonstration</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="row">
+                <div class="webOptimization-left col-6">
+                    <li> <a href="https://ticl4.github.io/Website_Optimization/">Website Optimization - JavaScript (live demonstration)</a>
+                        <br>
+                        <span>-	Remodeled a webpage using JavaScript and CSS skills to optimize the responsiveness of a website.</span>
+                        <br>
+                        <span>-	Resized and compressed images used on the page to reduce the size loaded.</span>
+                        <br>
+                        <span>-	Scored above 90 on both mobile and desktop environments when tested with Page Speed and ran around 60 frames per second.</span>
+                        <br>
+                        <span><a href="https://github.com/TiCl4/Website_Optimization">Github code</a></span>
+                    </li>
+                </div>
+                <div class="webOptimization-right col-6">
+                    <p>Demonstration</p>
+                </div>
+            </div>
+            
+            <hr>
+
+            <div class="row">
+                <div class="neighborhoodMap-left col-6">
+                    <li><a href="https://ticl4.github.io/Neighborhood_Map/">Neighborhood Map - JavaScript (live demonstration)</a>
+                        <br>
+                        <span>-	Built a neighborhood map of where I live using Google Maps API, Foursquare API and JSON to get data from the servers to include detail about popular locations that I think people would want to visit if they have a chance to visit Portland, OR.</span>
+                        <br>
+                        <span>-	Assembled KnockoutJS (a JavaScript library) into my project code to implement search algorithm in which they can search for specific locations displayed on the menu.</span>
+                        <br>
+                        <span>-	Designed the web to work well in mobile environments as I applied a hamburger button to hide the location menu if the screen size is small.</span>
+                        <br>
+                        <span>-	Designed a click function that when a location (or marker) is clicked, an information window will display and the associated marker on the map will change colors to appear active.</span>
+                        <br>
+                        <span><a href="https://github.com/TiCl4/Neighborhood_Map">Github code</a></span>
+                    </li>
+                </div>
+                <div class="neighborhoodMap-right col-6">
+                    <p>Demonstration</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="row">
+                <div class="arcadeGameClone-left col-6">
+                <li><a href="https://ticl4.github.io/Classic_Arcade_Game_Clone/">Classic Arcade Game Clone - JavaScript (live demonstration)</a>
+                    <br>
+                    <span>-	Built an arcade game clone that uses object oriented JavaScript to manipulate objects in the game such as player and bugs.</span>
+                    <br>
+                    <span>-	Programmed functions for arrow keys that the player can manipulate to lead "player" across lanes full of bugs to the other side to win.</span>
+                    <br>
+                    <span>-	Applied rules for the game that if player and a bug collide, the game is reset and the player is put back to the original position to start the game again.</span>
+                    <br>
+                    <span><a href="https://github.com/TiCl4/Classic_Arcade_Game_Clone">Github code</a></span>
+                </li>
+                </div>
+                <div class="arcadeGameClone-right col-6">
+                    <p>Demonstration</p>
+                </div>
+            </div>
+            
+        </ul>
+        
+    </div>
+    
+    <div class="row">
+        <div class="col-12">
+            <p class="identity text-center">@2018 Nguyen Tran</p>
         </div>
-        <div class="memeMe-right"></div>
-        
-        <div class="pitchPerfect-left">
-        <li> <a href="https://appetize.io/app/d668fcrp3ecxytf1th74wmd3j4?device=iphone6s&scale=75&orientation=portrait&osVersion=11.1">PitchPerfect - iOS (live demonstration)</a>
-            <br>
-            <span>- Created an iPhone/iPad app that allows users to record their voice and will then modulate the recorded audio to sound like a Chipmunk or Darth Vader, to sound fast or slow, to sound with echo or with reverb effects.</span>
-            <br>
-            <span>- Incorporated UINavigationController to navigate between two scenes, leveraged MVC design using UIViewController and UIView, played audio files using AVFoundation’s AVAudioEngine class, eliminated repeatability by adding a function that includes similar codes.</span>
-            <br>
-            <Span> <a href="https://github.com/TiCl4/PitchPerfect_iOS">Github Code</a></Span>
-        </li>
-        </div>
-        <div class="memeMe-right"></div>
-        
-        <li> <a href="">Manager - React (working on making it live)</a>
-            <br>
-            <span>- Created a manager app using React in which a manager can use to manage his employees by scheduling, editing or firing his employees.</span>
-            <br>
-            <span>- Employed Google Firebase to create data for each employee.</span>
-            <br>
-            <span><a href="https://github.com/TiCl4/manager_react">Github code</a></span>
-        </li>
-        
-        <li> <a href="https://ticl4.github.io/Website_Optimization/">Website Optimization - JavaScript (live demonstration)</a>
-            <br>
-            <span>-	Remodeled a webpage using JavaScript and CSS skills to optimize the responsiveness of a website.</span>
-            <br>
-            <span>-	Resized and compressed images used on the page to reduce the size loaded.</span>
-            <br>
-            <span>-	Scored above 90 on both mobile and desktop environments when tested with Page Speed and ran around 60 frames per second.</span>
-            <br>
-            <span><a href="https://github.com/TiCl4/Website_Optimization">Github code</a></span>
-        </li>
-        
-        <li><a href="https://ticl4.github.io/Neighborhood_Map/">Neighborhood Map - JavaScript (live demonstration)</a>
-            <br>
-            <span>-	Built a neighborhood map of where I live using Google Maps API, Foursquare API and JSON to get data from the servers to include detail about popular locations that I think people would want to visit if they have a chance to visit Portland, OR.</span>
-            <br>
-            <span>-	Assembled KnockoutJS (a JavaScript library) into my project code to implement search algorithm in which they can search for specific locations displayed on the menu.</span>
-            <br>
-            <span>-	Designed the web to work well in mobile environments as I applied a hamburger button to hide the location menu if the screen size is small.</span>
-            <br>
-            <span>-	Designed a click function that when a location (or marker) is clicked, an information window will display and the associated marker on the map will change colors to appear active.</span>
-            <br>
-            <span><a href="https://github.com/TiCl4/Neighborhood_Map">Github code</a></span>
-        </li>
-        <li><a href="https://ticl4.github.io/Classic_Arcade_Game_Clone/">Classic Arcade Game Clone - JavaScript (live demonstration)</a>
-            <br>
-            <span>-	Built an arcade game clone that uses object oriented JavaScript to manipulate objects in the game such as player and bugs.</span>
-            <br>
-            <span>-	Programmed functions for arrow keys that the player can manipulate to lead "player" across lanes full of bugs to the other side to win.</span>
-            <br>
-            <span>-	Applied rules for the game that if player and a bug collide, the game is reset and the player is put back to the original position to start the game again.</span>
-            <br>
-            <span><a href="https://github.com/TiCl4/Classic_Arcade_Game_Clone">Github code</a></span>
-        </li>
-    </ul>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
