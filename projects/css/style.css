@@ -2,3 +2,8 @@
     padding-top: 60px;
     background-color: snow;
 }
+
+.navbar {
+    border-bottom-color: darkgoldenrod;
+    border-width: thin;
+}
