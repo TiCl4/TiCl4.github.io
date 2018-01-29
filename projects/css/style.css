@@ -1,9 +1,17 @@
 .projects-container {
     padding-top: 60px;
-    background-color: snow;
+    background-color: #F2F0E8;
 }
 
 .navbar {
     border-bottom-color: darkgoldenrod;
     border-width: thin;
+}
+
+span {
+    color: #8B7B41;
+}
+
+body {
+    background-color: #FFFFFF;
 }

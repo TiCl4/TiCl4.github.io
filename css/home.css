@@ -1,6 +1,14 @@
+body {
+    background-color: #8B7B41;
+}
+
 .container {
     padding-top: 40px;
-    background-color: snow;
+    background-color: #2A2A2A;
+}
+
+h1, h4, li {
+    color: snow;
 }
 
 .about-me {
@@ -24,7 +32,7 @@
 }
 
 p {
-    color:darkgreen;
+    color:#CBCBCB;
 }
 
 .identity {
